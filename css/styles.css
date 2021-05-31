@@ -13,7 +13,7 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
 }
 .img{
-    margin-left: 200px;
+    margin-left: 250px;
     margin-right:200px;
 }
 .flexcontainer{
@@ -47,4 +47,41 @@ table, th, td{
 }
 tr:hover{
     background-color: skyblue;
+}
+/*Styles for tablet*/
+@media screen and (max-width:768px){
+    .pagecontainer{
+        max-width: 700px;
+        margin:auto;
+    }
+    .img{
+        width:500px;
+        height:300px;
+    }
+    .thumbnail{
+        width:150px;
+        height:150px;
+    }
+    #thumbnail1, #thumbnail2{
+        flex:1 0 0;
+    }
+    #thumbnail3, #thumbnail4{
+        flex:1 0 0;
+    }
+}
+@media screen and (max-width:480px){
+    .pagecontainer{
+        max-width: 400px;
+        margin:auto;
+        font-size: 20px;
+    }
+    .img{
+        width:3500px;
+        height:150px;
+    }
+    .thumbnail{
+        width:100px;
+        height:100px;
+        flex:1 0 100%;
+    }
 }
