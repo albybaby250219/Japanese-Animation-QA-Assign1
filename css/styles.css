@@ -51,7 +51,7 @@ tr:hover{
 /*Styles for tablet*/
 @media screen and (max-width:768px){
     .pagecontainer{
-        max-width: 700px;
+        max-width: 768px;
         margin:auto;
     }
     .img{
@@ -71,7 +71,7 @@ tr:hover{
 }
 @media screen and (max-width:480px){
     .pagecontainer{
-        max-width: 400px;
+        max-width: 480px;
         margin:auto;
         font-size: 20px;
     }
