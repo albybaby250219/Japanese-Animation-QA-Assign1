@@ -1,7 +1,7 @@
 /*
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
-  Content-Security-Policy: default-src 'none'; script-src https://japanese-animation-qa-assignment.netlify.app
+  Content-Security-Policy: default-src https://japanese-animation-qa-assignment.netlify.app
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
   Permissions-Policy: fullscreen=(), geolocation=()
